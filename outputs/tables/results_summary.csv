@@ -1,0 +1,4 @@
+comparison,n,mean_diff,p_ttest,cohens_dz
+Pre->Post total,26,0.577,0.026,0.466
+Pre->Delayed total,27,-1.148,0.0,-1.08
+Post->Delayed total,26,-1.731,0.0,-1.662

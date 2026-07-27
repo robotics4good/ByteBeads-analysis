@@ -1,0 +1,2807 @@
+{
+  "dataset": "Byte Beads CT Assessment — Southwest Middle School",
+  "codes": {
+    "absent": "student absent / test not given (was 99)",
+    "no_response": "item left blank / no response (was -1)",
+    "null": "field empty or not applicable"
+  },
+  "assessments": {
+    "pre": "Apr 30 — Q1-Q5 (Lila/Burger/Heart/Sailor/Embroidery)",
+    "post": "May 7 — Q1-Q5 identical to pre; Q6 Fast Laundry novel probe",
+    "delayed": "May 14 — Q1-Q5 parallel form (NOT formally validated as equivalent); Q6 Making a Necklace novel probe",
+    "proximal_day2": "May 5 — in-game Sequence/Action-Card/Spinner task"
+  },
+  "n_students": 30,
+  "students": [
+    {
+      "student_id": "SW-01",
+      "name": "Kevin Bastidas Carreno",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "total": 4
+        },
+        "post": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 1,
+          "q6_novel": "no_response",
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 0,
+          "del_post_retention": -2,
+          "del_pre": -2
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "-1",
+          "q3_explain_thinking_raw": "-1",
+          "q4_bonus_raw": "-1",
+          "a1_score": 1,
+          "a2_score": 1,
+          "a3_score": 1,
+          "partA_total": 3
+        },
+        "part_b": {
+          "card1": {
+            "name": "branch",
+            "instruction": "1",
+            "seq_effect": "1",
+            "cs_idea_raw": "inserting blocks",
+            "cs_idea_code": null,
+            "cs_link": 1
+          },
+          "card2": {
+            "name": "Simplify",
+            "instruction": "1",
+            "seq_effect": "1",
+            "cs_idea_raw": "combining code",
+            "cs_idea_code": null,
+            "cs_link": 1
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 2,
+          "cs_quality": 2
+        },
+        "part_c": {
+          "spinner1": {
+            "section": "Branch",
+            "action_text": "Attached string on to partner",
+            "length_change": "Longer",
+            "length_valid": 1
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 1
+        }
+      }
+    },
+    {
+      "student_id": "SW-02",
+      "name": "Monserrat Olarte Burgoa",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 0,
+          "q2": 1,
+          "q3": "no_response",
+          "q4": "no_response",
+          "q5": "no_response",
+          "total": 1
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 0,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 0,
+          "q6_novel": 0,
+          "total": 1
+        },
+        "gains": {
+          "post_pre": 3,
+          "del_post_retention": -3,
+          "del_pre": 0
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "I did like it was funny",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-03",
+      "name": "Yeirah Beltran",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": "no_response",
+          "q4": "no_response",
+          "q5": "no_response",
+          "total": 2
+        },
+        "post": {
+          "q1": "no_response",
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 3
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 1,
+          "del_post_retention": -1,
+          "del_pre": 0
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "I really liked the new game, it was so funny",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-04",
+      "name": "Kianna Lambarena Cannon",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": "no_response",
+          "q4": "no_response",
+          "q5": "no_response",
+          "total": 2
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": "no_response",
+          "q5": "no_response",
+          "q6_novel": "no_response",
+          "total": 3
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 1,
+          "del_post_retention": -1,
+          "del_pre": 0
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "I dont know to be honest. It was very stressful and wouldnt do it again",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-05",
+      "name": "Kevin Conde",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 1,
+          "total": 5
+        },
+        "post": {
+          "q1": 1,
+          "q2": 0,
+          "q3": 1,
+          "q4": 1,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": -1,
+          "del_post_retention": -2,
+          "del_pre": -3
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "No, yes it was easier than Day 1 because I had smaller group",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-06",
+      "name": "Ethan Imperial",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 1,
+          "total": 4
+        },
+        "post": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 0,
+          "q6_novel": 0,
+          "total": 3
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 3
+        },
+        "gains": {
+          "post_pre": -1,
+          "del_post_retention": 0,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "-1",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-07",
+      "name": "David Ruiz",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 5
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 2,
+          "del_post_retention": -3,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "They rhyme and it was easier",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-08",
+      "name": "Samson Mohammed",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "total": 4
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 0,
+          "del_post_retention": -2,
+          "del_pre": -2
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "easier since it was more easier to understand",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-09",
+      "name": "Adrian Bueno",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "total": 4
+        },
+        "post": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 3
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": -1,
+          "del_post_retention": -1,
+          "del_pre": -2
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "easier than the first time",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-10",
+      "name": "Jorge Lopez Sandoval",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 1,
+          "del_post_retention": -2,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "That both G and B apear two times",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-11",
+      "name": "Michael Mendoza",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 5
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": "no_response",
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 2,
+          "del_post_retention": -3,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "I dont know. I didnt like it. If I could would dip",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-12",
+      "name": "Adrian Peterson",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 2
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 2,
+          "del_post_retention": -2,
+          "del_pre": 0
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "No, it was easier than I thought. It was fun",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-13",
+      "name": "Christian Verde",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "q6_novel": 1,
+          "total": 3
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 0,
+          "q6_novel": 0,
+          "total": 1
+        },
+        "gains": {
+          "post_pre": 0,
+          "del_post_retention": -2,
+          "del_pre": -2
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "What pattern?",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-14",
+      "name": "Felix Ramirez",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 0,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "gains": {
+          "post_pre": 1,
+          "del_post_retention": 0,
+          "del_pre": 1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "taps are frequent",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-15",
+      "name": "Zoe Lopez",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 0,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 0,
+          "q6_novel": 1,
+          "total": 1
+        },
+        "gains": {
+          "post_pre": 1,
+          "del_post_retention": -3,
+          "del_pre": -2
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "Its easy and easy to memorize",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-16",
+      "name": "Zoe Rodriguez",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 2
+        },
+        "post": {
+          "q1": "absent",
+          "q2": "absent",
+          "q3": "absent",
+          "q4": "absent",
+          "q5": "absent",
+          "q6_novel": "absent",
+          "total": null
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": "no_response",
+          "q4": "no_response",
+          "q5": "no_response",
+          "q6_novel": "no_response",
+          "total": 1
+        },
+        "gains": {
+          "post_pre": null,
+          "del_post_retention": null,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "I noticed they rhyme",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-17",
+      "name": "Dylan Beaster",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 1,
+          "del_post_retention": -2,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "The pattern was any color for 1st and 2nd than blue. Yes, because it was a game",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-18",
+      "name": "Guillermo Rodriguez",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 5
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 2,
+          "del_post_retention": -3,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "No, there wasent really a pattern in my sequence. It was a bit harder",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-19",
+      "name": "Brooke Hernandez",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 1,
+          "q5": 0,
+          "total": 2
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 0,
+          "q6_novel": 1,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 2,
+          "del_post_retention": -2,
+          "del_pre": 0
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "I dident notice any pattern",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-20",
+      "name": "Renata Ayala Valenzuela",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "q6_novel": 0,
+          "total": 3
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 0,
+          "del_post_retention": -1,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "No I did not notice any pattern, it seems randomized",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-21",
+      "name": "Nikki Vought",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "total": 4
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 3
+        },
+        "gains": {
+          "post_pre": 0,
+          "del_post_retention": -1,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "I noticed green and blue appeared the most. It was same as Day 1",
+          "q4_bonus_raw": "1",
+          "a1_score": 1,
+          "a2_score": 1,
+          "a3_score": 1,
+          "partA_total": 3
+        },
+        "part_b": {
+          "card1": {
+            "name": "branch",
+            "instruction": "1",
+            "seq_effect": "1",
+            "cs_idea_raw": "inserting blocks",
+            "cs_idea_code": null,
+            "cs_link": 1
+          },
+          "card2": {
+            "name": "Simplify",
+            "instruction": "1",
+            "seq_effect": "1",
+            "cs_idea_raw": "combining code",
+            "cs_idea_code": null,
+            "cs_link": 1
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 2,
+          "cs_quality": 2
+        },
+        "part_c": {
+          "spinner1": {
+            "section": "Branch",
+            "action_text": "Attached string on to partner",
+            "length_change": "Longer",
+            "length_valid": 1
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 1
+        }
+      }
+    },
+    {
+      "student_id": "SW-22",
+      "name": "Alicia Tido Suliy",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 0,
+          "q3": 0,
+          "q4": 0,
+          "q5": 0,
+          "q6_novel": "no_response",
+          "total": 1
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": -2,
+          "del_post_retention": 1,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "Hard because it was more confusing",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-23",
+      "name": "Iker Ramos-Madrid",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "total": 4
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 0,
+          "del_post_retention": -2,
+          "del_pre": -2
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "I got clap-slap-clap-slap was the pattern i noticed",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-24",
+      "name": "Aiden Dominguez",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 1,
+          "total": 5
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 0,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 0,
+          "q6_novel": 1,
+          "total": 1
+        },
+        "gains": {
+          "post_pre": -1,
+          "del_post_retention": -3,
+          "del_pre": -4
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "Easily was really simple",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-25",
+      "name": "Isabel Morales",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 3
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "q6_novel": 1,
+          "total": 3
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 0,
+          "del_post_retention": -1,
+          "del_pre": -1
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "I ddient notice anything",
+          "q4_bonus_raw": "1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-26",
+      "name": "Orlando Jimenez Raygoza",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 0,
+          "total": 2
+        },
+        "post": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": "no_response",
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 2,
+          "del_post_retention": -2,
+          "del_pre": 0
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "1",
+          "q2_actions_in_order_raw": "1",
+          "q3_explain_thinking_raw": "wouldnt do it again",
+          "q4_bonus_raw": "-1",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-27",
+      "name": "Jaime Silva",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": 1,
+          "q2": 1,
+          "q3": 1,
+          "q4": 0,
+          "q5": 1,
+          "total": 4
+        },
+        "post": {
+          "q1": "no_response",
+          "q2": 1,
+          "q3": 1,
+          "q4": 1,
+          "q5": 1,
+          "q6_novel": 0,
+          "total": 4
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": 0,
+          "del_post_retention": -2,
+          "del_pre": -2
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "99",
+          "q2_actions_in_order_raw": "99",
+          "q3_explain_thinking_raw": "99",
+          "q4_bonus_raw": "99",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-28",
+      "name": "Axl Urias Hernandez",
+      "grade": null,
+      "distal": {
+        "pre": {
+          "q1": "absent",
+          "q2": "absent",
+          "q3": "absent",
+          "q4": "absent",
+          "q5": "absent",
+          "total": null
+        },
+        "post": {
+          "q1": "absent",
+          "q2": "absent",
+          "q3": "absent",
+          "q4": "absent",
+          "q5": "absent",
+          "q6_novel": "absent",
+          "total": null
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": "no_response",
+          "q4": 0,
+          "q5": 1,
+          "q6_novel": 1,
+          "total": 2
+        },
+        "gains": {
+          "post_pre": null,
+          "del_post_retention": null,
+          "del_pre": null
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "99",
+          "q2_actions_in_order_raw": "99",
+          "q3_explain_thinking_raw": "99",
+          "q4_bonus_raw": "99",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-29",
+      "name": "Luna Martinez",
+      "grade": 7,
+      "distal": {
+        "pre": {
+          "q1": "absent",
+          "q2": "absent",
+          "q3": "absent",
+          "q4": "absent",
+          "q5": "absent",
+          "total": null
+        },
+        "post": {
+          "q1": "absent",
+          "q2": "absent",
+          "q3": "absent",
+          "q4": "absent",
+          "q5": "absent",
+          "q6_novel": "absent",
+          "total": null
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 0,
+          "q6_novel": 0,
+          "total": 1
+        },
+        "gains": {
+          "post_pre": null,
+          "del_post_retention": null,
+          "del_pre": null
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "99",
+          "q2_actions_in_order_raw": "99",
+          "q3_explain_thinking_raw": "99",
+          "q4_bonus_raw": "99",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    },
+    {
+      "student_id": "SW-30",
+      "name": "Naomi Hernandez",
+      "grade": 8,
+      "distal": {
+        "pre": {
+          "q1": "absent",
+          "q2": "absent",
+          "q3": "absent",
+          "q4": "absent",
+          "q5": "absent",
+          "total": null
+        },
+        "post": {
+          "q1": "absent",
+          "q2": "absent",
+          "q3": "absent",
+          "q4": "absent",
+          "q5": "absent",
+          "q6_novel": "absent",
+          "total": null
+        },
+        "delayed": {
+          "q1": 0,
+          "q2": 1,
+          "q3": 0,
+          "q4": 0,
+          "q5": 0,
+          "q6_novel": 1,
+          "total": 1
+        },
+        "gains": {
+          "post_pre": null,
+          "del_post_retention": null,
+          "del_pre": null
+        }
+      },
+      "proximal_day2": {
+        "part_a": {
+          "q1_color_mapping_raw": "99",
+          "q2_actions_in_order_raw": "99",
+          "q3_explain_thinking_raw": "99",
+          "q4_bonus_raw": "99",
+          "a1_score": null,
+          "a2_score": null,
+          "a3_score": null,
+          "partA_total": 0
+        },
+        "part_b": {
+          "card1": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card2": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "card3_bonus": {
+            "name": null,
+            "instruction": null,
+            "seq_effect": null,
+            "cs_idea_raw": null,
+            "cs_idea_code": null,
+            "cs_link": null
+          },
+          "cards_logged": 0,
+          "cs_quality": 0
+        },
+        "part_c": {
+          "spinner1": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "spinner2_bonus": {
+            "section": null,
+            "action_text": null,
+            "length_change": null,
+            "length_valid": null
+          },
+          "valid_total": 0
+        }
+      }
+    }
+  ]
+}
